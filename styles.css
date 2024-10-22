@@ -1,0 +1,124 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3d3d3d;
+    color: #000000;
+}
+
+header {
+    background-color: #d6d6d6;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0px 0px rgba(255, 255, 255, 0.1);
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000; 
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    padding: 20px 40px;
+    font-family: Times, "Times New Roman", serif;
+}
+
+section {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+aside .sidebar-text .social-media li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px; 
+}
+
+#slideContainer {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.social-media li {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.social-media a img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.sidebar-text {
+    color: #ffffff;
+    text-align: center;
+}
+aside .social-media li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
