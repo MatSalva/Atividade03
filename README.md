@@ -17,4 +17,4 @@ git clone https://github.com/MatSalva/Atividade03
 
 1. Abra o projeto no VSCode.
 2. Abra o arquivo index.html.
-3. Clique no botão escreto Shoe Preview no canto superior direito do editor.
+3. Clique no botão Show Preview no canto superior direito do editor.
